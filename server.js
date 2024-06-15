@@ -7,10 +7,13 @@ const route = require("./routes");
 const path = require('path');
 const env = require("dotenv").config();
 const database = require('./database/users');
+const bodyParser = require('body-parser');
 
-// Serve static files from the "frontend" directory
-// app.use(express.static(path.join(__dirname, 'frontend')));
-app.use("/", route)
+
+/***************************
+ * MIDDLEWARE
+ **************************/
+app.use(bodyParser.json());
 
 
 
@@ -18,6 +21,8 @@ app.use("/", route)
  * Routes
  *************************/
 app.use("/", route);
+// Serve static files from the "frontend" directory
+// app.use(express.static(path.join(__dirname, 'frontend')));
 
 database.initDb((err) =>{
     if(err){
