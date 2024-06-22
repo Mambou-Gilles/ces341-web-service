@@ -26,14 +26,14 @@ Content-Type: application/json
 ###
 
 # Put Contanct 
-PUT http://localhost:8080/users/update/667735a560ec704ae9b31885 HTTP/1.1
+PUT http://localhost:8080/users/update/666de0542256ad8758b3751e HTTP/1.1
 Content-Type: application/json
 
 {
-"firstName": "baby Shark",
+"firstName": "Brody",
 "lastName": "Bebefinn",
 "email": "bebe@bebefinn",
-"favoriteColor": "Yello",
+"favoriteColor": "Green",
 "birthday": "01/01/2023"
 }
 
