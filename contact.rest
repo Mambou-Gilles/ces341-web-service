@@ -7,7 +7,7 @@ Content-Type: application/json
 ###
 
 #GET BY ID 
-GET http://localhost:8080/users/6669dcbaf96ab4e6d3722284
+GET http://localhost:8080/users/666dcd79b9a81f922812be08
 Content-Type: application/json
 ###
 
@@ -16,11 +16,11 @@ POST http://localhost:8080/users/create HTTP/1.1
 Content-Type: application/json
 
 {
-"firstName": "Bora", 
-"lastName": "Bebefinn", 
-"email": "bora@kolob.com", 
+"firstName": "Brian", 
+"lastName": "Bird", 
+"email": "bb@ford.com", 
 "favoriteColor": "Green", 
-"birthday": "4/08/2021"
+"birthday": "4/05/1991"
 }
 
 ###
@@ -40,7 +40,7 @@ Content-Type: application/json
 ### 
 
 # DeleteContact 
-DELETE http://localhost:8080/users/delete/6677355e5093c20c4658cb44 HTTP/1.1
+DELETE http://localhost:8080/users/delete/667752a49c4d0095e0eff37a HTTP/1.1
 
 # Production
 

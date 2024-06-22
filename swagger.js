@@ -8,6 +8,7 @@ const doc = {
         "title": "Documentation to an API"
     },
     host: "ces341-web-service.onrender.com",
+    // host: "localhost:8080",
     schemes: ["https", "http"],
     };
 const outputFile = "./models/swagger.json";
