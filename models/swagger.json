@@ -31,6 +31,22 @@
         }
       }
     },
+    "/users/": {
+      "get": {
+        "description": "",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
     "/users/{id}": {
       "get": {
         "description": "",
@@ -44,22 +60,6 @@
             "required": true,
             "type": "string"
           }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        }
-      }
-    },
-    "/users/": {
-      "get": {
-        "description": "",
-        "produces": [
-          "application/json"
         ],
         "responses": {
           "200": {

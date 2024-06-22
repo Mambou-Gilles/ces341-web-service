@@ -10,13 +10,6 @@ const express = require('express'); // Import the express module
 const userRouter = express.Router(); // Create a new router instance
 const userController = require('../controllers/userController'); // Import the user controller
 
-/**
- * Get a single user by ID.
- * 
- * Route: GET /users/:id
- * Controller Function: userController.getSingle
- */
-userRouter.get('/:id', userController.getSingle);
 
 /**
  * Get all users.
@@ -25,6 +18,14 @@ userRouter.get('/:id', userController.getSingle);
  * Controller Function: userController.getAll
  */
 userRouter.get('/', userController.getAll);
+
+/**
+ * Get a single user by ID.
+ * 
+ * Route: GET /users/:id
+ * Controller Function: userController.getSingle
+ */
+userRouter.get('/:id', userController.getSingle);
 
 /**
  * Create a new user.
