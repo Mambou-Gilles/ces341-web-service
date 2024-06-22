@@ -5,9 +5,10 @@
     "version": "1.0.0",
     "title": "Documentation to an API"
   },
-  "host": "localhost:8080",
+  "host": "https://ces341-web-service.onrender.com",
   "basePath": "/",
   "schemes": [
+    "https",
     "http"
   ],
   "paths": {
