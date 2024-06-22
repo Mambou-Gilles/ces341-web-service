@@ -7,7 +7,7 @@ const doc = {
         "version": "1.0.0",
         "title": "Documentation to an API"
     },
-    host: "https://ces341-web-service.onrender.com",
+    host: "ces341-web-service.onrender.com",
     schemes: ["https", "http"],
     };
 const outputFile = "./models/swagger.json";
